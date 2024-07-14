@@ -1,4 +1,14 @@
-'''
+Import network as nx
+# create a directed graph
+G = nx DiGraph()
+# Add nodes
+G add nodes from (["A", "FA", "FG", "G","T"])
+# Add edges based on dependencies
+G add edges from [([("T", "G"), ("FG", "G"), ("FG", "FA"), 
+# Draw the graph
+Nx,draw(G, with labels=True, node, size= 2000, node colors = 'skyblue', 
+        fornt_size = 15, font color = 'black')
+                    
 The digits recognition dataset
 
 Up until now, you have been performing binary classification, since the target variable had two possible outcomes. Hugo, however, got to perform multi-class classification in the videos, where the target variable could take on three possible outcomes. Why does he get to have all the fun?! In the following exercises, you'll be working with the MNIST digits recognition dataset, which has 10 classes, the digits 0 through 9! A reduced version of the MNIST dataset is one of scikit-learn's included datasets, and that is the one we will use in this exercise.
